@@ -1,0 +1,13 @@
+.mainTitle{
+    color : rgb(164, 115, 238);
+    text-decoration : underline;
+  }
+
+  .blue{
+    color:rgb(146, 234, 237)
+  }
+
+  
+  .pText{
+    white-space: pre-line;
+  }
