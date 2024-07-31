@@ -6,7 +6,7 @@ function ArticleCard(props) {
     return ( 
         <Card
             title={article.title}
-            imgSrc={article.imgSrc}
+            imgSrc={article.img_src}
             link={"/article/details/" + article.id_article}
             btnText="Lire"
         >

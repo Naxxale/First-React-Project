@@ -9,9 +9,7 @@ function Card({children, title, imgSrc, link, btnText}) {
                 alt={title} />
             <div className="card-body text-center">
                 <h5 className="card-title">{title}</h5>
-                <p className="card-text" style={{textAlign: "justify"}}>
                     {children}
-                </p>
                 <a href={link} className="btn btn-primary">{btnText}</a>
             </div>
         </div>
